@@ -140,6 +140,8 @@ class Konto {
 }
 ```
 
+<br><br><br><br><br><br>
+
 #### 🧠 Merksätze
 
 `Exceptions` ermöglichen kontrollierte Fehlerbehandlung statt Abstürzen.
