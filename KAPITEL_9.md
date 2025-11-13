@@ -37,6 +37,8 @@ Programm läuft, macht aber das Falsche.
 
 Werden nur durch `Testen` oder `Debugging` gefunden.
 
+<br><br><br><br><br><br><br>
+
 #### 🔹 3. Automatisiertes Testen mit `JUnit`
 
 `JUnit` ermöglicht das automatische Ausführen von Tests.
@@ -86,6 +88,8 @@ konto.einzahlen(100);
 
 Tests basieren dann auf einem definierten Startzustand.
 
+<br>
+
 #### 🔹 6. Fehlerbeseitigung (Debugging)
 
 - Fehlerbeseitigung bedeutet:
@@ -132,7 +136,9 @@ main() → berechne() → validiere() → speichere()
 
 Fehler lassen sich oft auf eine bestimmte Station der Aufrufkette zurückführen.
 
-📘 Kleines Beispiel: `Positives` + `negatives` Testen
+<br><br><br><br><br><br><br><br>
+
+#### 📘 Kleines Beispiel: `Positives` + `negatives` Testen
 ```java
 @Test
 public void testAbhebenPositiv() {
