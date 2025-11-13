@@ -1,5 +1,5 @@
 # 📘 Zusammenfassung: Sammlungen & Iteration (ArrayList, Schleifen, Iteratoren)
-#### 🔹 1. Sammlungen (Collections)
+#### 🔹 1. Sammlungen `Collections`
 
 Eine Sammlung kann beliebig viele Objekte speichern.
 
@@ -36,6 +36,7 @@ for (String name : namen) {
     System.out.println(name);
 }
 ```
+<br><br><br><br><br><br>
 
 #### 🔹 4. Iterator
 
@@ -79,6 +80,7 @@ int i = 0;
         i++;
 }
 ```
+<br><br><br><br>
 
 #### 🔹 7. Indices
 
@@ -113,6 +115,7 @@ new ArrayList<String>().add("Test");   // wenig gebräuchlich, aber möglich
 ```java
 String name = null;    // kein Objekt
 ```
+<br><br><br><br><br><br><br><br><br><br><br>
 
 #### 📘 Komplettes Beispiel: Sammeln & Iterieren
 ```java
