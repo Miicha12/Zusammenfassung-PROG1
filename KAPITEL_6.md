@@ -158,7 +158,7 @@ Dieses Beispiel zeigt:
 
 - Schnittstelle vs. Implementierung
 
-#### 🧠 Merksaetze
+#### 🧠 Merksätze
 
 Gute Dokumentation ist so wichtig wie guter Code.
 
