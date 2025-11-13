@@ -25,6 +25,7 @@ class Bestellung {
     private KundenInfo info;  // nur eine abstrakte Schnittstelle
 }
 ```
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 #### 🔹 2. Kohäsion `Cohesion`
 
@@ -51,7 +52,7 @@ double berechnePreis(...) { ... }
 }
 ```
 
-🔹 3. Kapselung `Encapsulation`
+#### 🔹 3. Kapselung `Encapsulation`
 
 - Interne Details verbergen `private Felder`, `öffentliche Methoden`.
 
@@ -64,6 +65,7 @@ class Konto {
     public void einzahlen(double betrag) { ... }
 }
 ```
+<br><br><br><br><br><br><br>
 
 #### 🔹 4. Entwurf nach Zuständigkeiten
 
@@ -156,6 +158,7 @@ Produkt produkt;
     }
 }
 ```
+<br><br><br><br><br><br><br><br><br><br>
 
 Gute Version `lose Kopplung`, `klare Zuständigkeit`:
 ```java
