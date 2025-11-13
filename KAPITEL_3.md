@@ -1,7 +1,7 @@
 # 📘 Zusammenfassung: Aufgaben zerlegen, Klassen planen & Objektinteraktionen
 #### 🔹 1. Abstraktion
 
-- Abstraktion heißt: Unwichtige Details weglassen, um das Wesentliche zu sehen.
+- Abstraktion heisst: Unwichtige Details weglassen, um das Wesentliche zu sehen.
 
 - Fokus auf das Was, nicht das Wie.
 
@@ -17,7 +17,7 @@ auto.bremsen();
 
 #### 🔹 2. Modularisierung (Teile-und-herrsche)
 
-- Eine große Aufgabe wird in kleine, gut verständliche Module zerlegt.
+- Eine grosse Aufgabe wird in kleine, gut verständliche Module zerlegt.
 
 - Jedes Modul wird als eigene `Klasse` implementiert.
 
@@ -39,7 +39,7 @@ Auto a;        // a ist eine Variable vom Typ 'Auto'
 a = new Auto(); // Objekterzeugung
 ```
 
-
+<br><br><br><br>
 #### 🔹 4. Klassendiagramme & Objektdiagramme
 - `Klassendiagramm` → **statisch**
 
@@ -121,6 +121,8 @@ auto.beschleunigen(10);  // externer Aufruf
 
     - Objektzustände prüfen
 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 #### 📘 Komplettes Beispiel: Zerlegen einer Aufgabe in Klassen
 Aufgabe: Ein Buchverwaltungssystem
 ```java
@@ -163,7 +165,7 @@ class Main {
     }
 }
 ```
-
+<br><br><br><br><br><br><br>
 Dieses Beispiel zeigt:
 
 - Abstraktion `Buch, Regal, Bibliothek`
@@ -178,7 +180,7 @@ Dieses Beispiel zeigt:
 
 #### 🧠 Merksätze
 
-Große Probleme → in kleine `Klassen` zerlegen.
+**Grosse Probleme** → in kleine `Klassen` zerlegen.
 
 `Klassen` = Baupläne, `Objekte` = konkrete Behälter für Zustand & Verhalten.
 
