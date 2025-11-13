@@ -32,6 +32,8 @@ public class Konto {
 
     → möglichst viel `private`, möglichst wenig `public`.
 
+<br><br><br><br><br><br><br><br><br><br>
+
 #### 🔹 3. Javadoc & Dokumentation
 
 Mit Kommentaren wie `/** ... */` kannst du automatisch `HTML-Dokumentation` erzeugen.
@@ -80,6 +82,7 @@ Beispiel:
 ArrayList<Integer> zahlen = new ArrayList<>();
 zahlen.add(5);     // Autoboxing von int → Integer
 ```
+<br>
 
 #### 🔹 6. Statische Elemente: Klassenvariablen & Klassenmethoden
 
@@ -115,6 +118,7 @@ Beispiel:
 ```java
 namen.forEach(System.out::println);
 ```
+<br><br><br><br><br><br><br><br><br><br><br><br>
 
 #### 📘 Zusammenfassendes Beispiel
 
@@ -157,6 +161,8 @@ Dieses Beispiel zeigt:
 - Methodenreferenzen
 
 - Schnittstelle vs. Implementierung
+
+<br><br><br><br><br><br><br><br><br>
 
 #### 🧠 Merksätze
 
