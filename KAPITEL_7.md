@@ -41,6 +41,8 @@ Ideal, wenn man:
 
 - eine bestimmte Anzahl Durchläufe hat.
 
+<br><br><br><br><br>
+
 Beispiel:
 ```java
 for (int i = 0; i < zahlen.length; i++) {
@@ -75,6 +77,7 @@ Ein Array, das für jede Note eine Beschreibung speichert:
 String[] notenText = { "ungenuegend", "genuegend", "gut", "sehr gut" };
 System.out.println(notenText[2]);  // "gut"
 ```
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 #### 📘 Komplettes Lernbeispiel: Arbeiten mit `Arrays`
 ```java
