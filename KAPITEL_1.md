@@ -44,7 +44,7 @@ Objekte können über Methodenaufrufe miteinander kommunizieren.
 
 `Ergebnistyp` (z. B. int, String, void)
 
-<br><br>
+<div style="page-break-before: always;"></div>
 
 Beispiel:
 ```java
@@ -93,7 +93,7 @@ Beispiel:
 Auto meinAuto = new Auto();
 ```
 
-<br>
+<div style="page-break-before: always;"></div>
 
 ### 🔹 7. Quelltext & Struktur
 

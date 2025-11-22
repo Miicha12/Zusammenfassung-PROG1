@@ -25,7 +25,8 @@ class Bestellung {
     private KundenInfo info;  // nur eine abstrakte Schnittstelle
 }
 ```
-<br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<div style="page-break-before: always;"></div>
 
 #### 🔹 2. Kohäsion `Cohesion`
 
@@ -65,7 +66,8 @@ class Konto {
     public void einzahlen(double betrag) { ... }
 }
 ```
-<br><br><br><br><br><br><br>
+
+<div style="page-break-before: always;"></div>
 
 #### 🔹 4. Entwurf nach Zuständigkeiten
 
@@ -158,7 +160,7 @@ Produkt produkt;
     }
 }
 ```
-<br><br><br><br><br><br><br><br><br><br>
+<div style="page-break-before: always;"></div>
 
 Gute Version `lose Kopplung`, `klare Zuständigkeit`:
 ```java

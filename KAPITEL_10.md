@@ -41,6 +41,8 @@ Object → Fahrzeug → Auto → Elektroauto
 
 Jede `Klasse` ohne explizite `Superklasse` erbt automatisch von Object.
 
+<div style="page-break-before: always;"></div>
+
 #### 🔹 3. Codewiederverwendung
 
 Vererbung ermöglicht:
@@ -76,6 +78,8 @@ class Auto extends Fahrzeug {
 ```
 
 Falls man keinen `super(...)`-Aufruf schreibt, fügt Java automatisch `super()` ein.
+
+<div style="page-break-before: always;"></div>
 
 #### 🔹 5. Subtypen & polymorphe Variablen
 ✔ `Subtyp`
@@ -113,6 +117,8 @@ Um wieder an Autotyp-spezifische `Methoden` zu kommen, braucht es ein Cast:
 ```java
 Auto a = (Auto) f;
 ```
+
+<div style="page-break-before: always;"></div>
 
 #### 🔹 7. Abstrakte Klassen (Grundidee)
 
@@ -161,6 +167,8 @@ public class Demo {
     }
 }
 ```
+
+<div style="page-break-before: always;"></div>
 
 #### 🧠 Merksätze (Schweizer Rechtschreibung)
 

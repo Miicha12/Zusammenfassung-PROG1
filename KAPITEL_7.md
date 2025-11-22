@@ -41,7 +41,7 @@ Ideal, wenn man:
 
 - eine bestimmte Anzahl Durchläufe hat.
 
-<br><br><br><br><br>
+<div style="page-break-before: always;"></div>
 
 Beispiel:
 ```java

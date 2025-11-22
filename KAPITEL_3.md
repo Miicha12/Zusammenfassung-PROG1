@@ -39,7 +39,8 @@ Auto a;        // a ist eine Variable vom Typ 'Auto'
 a = new Auto(); // Objekterzeugung
 ```
 
-<br><br><br><br>
+<div style="page-break-before: always;"></div>
+
 #### 🔹 4. Klassendiagramme & Objektdiagramme
 - `Klassendiagramm` → **statisch**
 
@@ -121,7 +122,7 @@ auto.beschleunigen(10);  // externer Aufruf
 
     - Objektzustände prüfen
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div style="page-break-before: always;"></div>
 
 #### 📘 Komplettes Beispiel: Zerlegen einer Aufgabe in Klassen
 Aufgabe: Ein Buchverwaltungssystem
@@ -165,7 +166,9 @@ class Main {
     }
 }
 ```
-<br><br><br><br><br><br><br>
+
+<div style="page-break-before: always;"></div>
+
 Dieses Beispiel zeigt:
 
 - Abstraktion `Buch, Regal, Bibliothek`

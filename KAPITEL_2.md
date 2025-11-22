@@ -37,7 +37,8 @@ class Konto {
 
 Konto k = new Konto(100.0);       // Objekt mit Startwert
 ```
-<br><br><br><br><br><br>
+<div style="page-break-before: always;"></div>
+
 #### 🔹 3. Methoden
 
 `Methoden` definieren das Verhalten eines `Objekts`.
@@ -82,7 +83,8 @@ Beispiel:
 void einzahlen(double betrag)   // betrag = formaler Parameter
 k.einzahlen(50.0);              // 50.0 = aktueller Parameter
 ```
-<br><br><br><br><br><br>
+<div style="page-break-before: always;"></div>
+
 #### 🔹 5. Variablen, Sichtbarkeit & Lebensdauer
 ##### Arten:
 
@@ -125,7 +127,8 @@ System.out.println("Positiv");
 System.out.println("Negativ");
 }
 ```
-<br><br>
+<div style="page-break-before: always;"></div>
+
 - Boolescher Ausdruck
 ```java
 saldo > 0      // true oder false

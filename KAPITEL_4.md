@@ -36,7 +36,9 @@ for (String name : namen) {
     System.out.println(name);
 }
 ```
-<br><br><br><br><br><br>
+
+<div style="page-break-before: always;"></div>
+
 
 #### 🔹 4. Iterator
 
@@ -80,7 +82,8 @@ int i = 0;
         i++;
 }
 ```
-<br><br><br><br>
+
+<div style="page-break-before: always;"></div>
 
 #### 🔹 7. Indices
 
@@ -115,7 +118,8 @@ new ArrayList<String>().add("Test");   // wenig gebräuchlich, aber möglich
 ```java
 String name = null;    // kein Objekt
 ```
-<br><br><br><br><br><br><br><br><br><br><br>
+
+<div style="page-break-before: always;"></div>
 
 #### 📘 Komplettes Beispiel: Sammeln & Iterieren
 ```java

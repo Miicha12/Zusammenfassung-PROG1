@@ -32,7 +32,7 @@ public class Konto {
 
     → möglichst viel `private`, möglichst wenig `public`.
 
-<br><br><br><br><br><br><br><br><br><br>
+<div style="page-break-before: always;"></div>
 
 #### 🔹 3. Javadoc & Dokumentation
 
@@ -82,7 +82,8 @@ Beispiel:
 ArrayList<Integer> zahlen = new ArrayList<>();
 zahlen.add(5);     // Autoboxing von int → Integer
 ```
-<br>
+
+<div style="page-break-before: always;"></div>
 
 #### 🔹 6. Statische Elemente: Klassenvariablen & Klassenmethoden
 
@@ -118,7 +119,7 @@ Beispiel:
 ```java
 namen.forEach(System.out::println);
 ```
-<br><br><br><br><br><br><br><br><br><br><br><br>
+<div style="page-break-before: always;"></div>
 
 #### 📘 Zusammenfassendes Beispiel
 
@@ -162,7 +163,7 @@ Dieses Beispiel zeigt:
 
 - Schnittstelle vs. Implementierung
 
-<br><br><br><br><br><br><br><br><br>
+<div style="page-break-before: always;"></div>
 
 #### 🧠 Merksätze
 

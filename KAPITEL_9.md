@@ -37,7 +37,7 @@ Programm läuft, macht aber das Falsche.
 
 Werden nur durch `Testen` oder `Debugging` gefunden.
 
-<br><br><br><br><br><br><br>
+<div style="page-break-before: always;"></div>
 
 #### 🔹 3. Automatisiertes Testen mit `JUnit`
 
@@ -88,7 +88,7 @@ konto.einzahlen(100);
 
 Tests basieren dann auf einem definierten Startzustand.
 
-<br>
+<div style="page-break-before: always;"></div>
 
 #### 🔹 6. Fehlerbeseitigung (Debugging)
 
@@ -136,7 +136,7 @@ main() → berechne() → validiere() → speichere()
 
 Fehler lassen sich oft auf eine bestimmte Station der Aufrufkette zurückführen.
 
-<br><br><br><br><br><br><br><br>
+<div style="page-break-before: always;"></div>
 
 #### 📘 Kleines Beispiel: `Positives` + `negatives` Testen
 ```java
