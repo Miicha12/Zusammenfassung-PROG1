@@ -80,6 +80,8 @@ class Hund extends Tier {
 }
 ```
 
+<div style="page-break-before: always;"></div>
+
 #### 🔹 6. protected
 
 Elemente mit `protected` sind:
@@ -91,6 +93,7 @@ Elemente mit `protected` sind:
 - aber nicht für alle anderen Klassen.
 
 - Gut für kontrollierte Vererbung.
+
 
 #### 🔹 7. toString überschreiben
 
@@ -108,6 +111,8 @@ private String modell;
     }
 }
 ```
+
+<div style="page-break-before: always;"></div>
 
 #### 📘 Praktisches Beispiel: Statischer & dynamischer Typ in Aktion
 ```java
