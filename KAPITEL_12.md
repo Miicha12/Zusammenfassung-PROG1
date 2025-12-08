@@ -39,6 +39,8 @@ abstract class Fahrzeug {
 }
 ```
 
+<div style="page-break-before: always;"></div>
+
 #### 🔹 3. Konkrete und abstrakte Subklassen
 
 Konkrete `Subklassen` müssen alle `abstrakten Methoden` implementieren.
@@ -84,6 +86,8 @@ class Auto implements Beweglich {
     }
 }
 ```
+
+<div style="page-break-before: always;"></div>
 
 #### 🔹 5. Multiple Vererbung (nur für Interfaces)
 
@@ -134,6 +138,8 @@ Dieses Beispiel zeigt:
 - Implementieren abstrakter Methoden
 
 - mehrere Typen für dasselbe Objekt (Tier, Beweglich, Hund)
+
+<div style="page-break-before: always;"></div>
 
 #### 🧠 Merksätze (Schweizer Rechtschreibung)
 
