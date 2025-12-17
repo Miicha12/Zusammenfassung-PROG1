@@ -84,7 +84,7 @@ Alle implementieren jeweils ein gemeinsames `Interface`.
 
 #### 6. Neue Struktur mit Strategy Pattern
 
-Die `abstrakte Klasse`` Ente:
+Die `abstrakte Klasse` Ente:
 
 besitzt Referenzen auf Flugverhalten und Quakverhalten
 
@@ -98,6 +98,8 @@ Beispiel:
 - NichtFliegen
 - Quietschen
 ```
+
+<div style="page-break-before: always;"></div>
 
 #### 7. Vorteile des Strategy Patterns
 
