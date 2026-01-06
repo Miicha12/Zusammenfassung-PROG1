@@ -169,6 +169,7 @@ Testgerüste sorgen für gleichbleibende Testbedingungen.
 
 `Regressionstests` stellen sicher, dass alte Fehler nicht zurückkehren.
 
+<div style="page-break-before: always;"></div>
 
 # 🧩 Schablone: Äquivalenzklassen beim Testen
 
@@ -220,6 +221,8 @@ Einschränkungen:
 - <Regel 1>
 - <Regel 2>
 ```
+
+<div style="page-break-before: always;"></div>
 
 📌 Beispiel:
 
@@ -273,6 +276,8 @@ Testwerte:
 - EK3: <Wert(e)>
 ```
 
+<div style="page-break-before: always;"></div>
+
 📌 Beispiel:
 
 ```java
@@ -304,6 +309,8 @@ EK1 → Uhrzeit wird korrekt angepasst
 EK2 → IllegalArgumentException
 EK3 → IllegalArgumentException
 ```
+
+<div style="page-break-before: always;"></div>
 
 #### 6️⃣ Testfälle formulieren (optional Code)
 
