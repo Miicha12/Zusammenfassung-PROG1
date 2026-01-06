@@ -168,3 +168,181 @@ Automatisierte Tests `JUnit` sparen Zeit und verhindern Rückschritte.
 Testgerüste sorgen für gleichbleibende Testbedingungen.
 
 `Regressionstests` stellen sicher, dass alte Fehler nicht zurückkehren.
+
+
+# 🧩 Schablone: Äquivalenzklassen beim Testen
+
+Diese Schritte kannst du 1:1 in Prüfungen anwenden.
+
+#### 1️⃣ Methode & Parameter identifizieren
+
+✏️ Frage:
+
+- **Was soll getestet werden?** <br>
+- **Welche Eingaben gibt es?**
+
+📌 Schablone:
+
+```java
+Zu testende Methode: <Methodenname>
+Parameter:
+- <Name> (<Typ>)
+```
+
+
+📌 Beispiel (Uhr):
+
+```java
+Zu testende Methode: addiereMinuten(int minuten)
+Parameter:
+- minuten (int)
+```
+
+#### 2️⃣ Einschränkungen & Regeln aus der Beschreibung extrahieren
+
+✏️ Frage:<br>
+
+- **Welche Bedingungen gelten für die Eingaben?**
+
+🔎 Suche nach Wörtern wie:
+
+- „muss“ 
+- „darf“ 
+- „mindestens“ 
+- „höchstens“ 
+- „nur wenn“ 
+- „ansonsten Exception“
+
+📌 Schablone:
+
+```java
+Einschränkungen:
+- <Regel 1>
+- <Regel 2>
+```
+
+📌 Beispiel:
+
+```java
+Einschränkungen:
+- minuten ≥ 1
+- minuten ≤ 1440
+```
+
+#### 3️⃣ Wertebereich in Äquivalenzklassen aufteilen
+
+✏️ Frage:<br>
+
+- **Welche Bereiche werden gleich behandelt?**
+
+📌 Schablone:
+
+```java
+Äquivalenzklassen:
+
+EK1 (gültig):     ...
+EK2 (ungültig):   ...
+EK3 (ungültig):   ...
+```
+
+📌 Beispiel:
+
+```java
+EK1 (gültig):     1 ≤ minuten ≤ 1440
+EK2 (ungültig):   minuten < 1
+EK3 (ungültig):   minuten > 1440
+```
+
+#### 4️⃣ Repräsentative Testwerte wählen
+
+✏️ Frage:<br>
+
+- **Welche einzelnen Werte stehen stellvertretend für die Klasse?**
+
+📌 Regeln:
+
+- Pro Äquivalenzklasse mindestens ein Wert
+- Grenzwerte bevorzugen
+
+📌 Schablone:
+
+```java
+Testwerte:
+- EK1: <Wert(e)>
+- EK2: <Wert(e)>
+- EK3: <Wert(e)>
+```
+
+📌 Beispiel:
+
+```java
+Testwerte:
+- EK1: 1, 10, 59, 60, 1440
+- EK2: 0, -1
+- EK3: 1441
+```
+
+#### 5️⃣ Erwartetes Verhalten festlegen
+
+✏️ Frage:
+
+- **Was passiert bei jeder Klasse?**
+
+📌 Schablone:
+
+```java
+Erwartetes Verhalten:
+- EK1: Korrekte Berechnung
+- EK2: Exception
+- EK3: Exception
+```
+
+📌 Beispiel:
+
+```java
+EK1 → Uhrzeit wird korrekt angepasst
+EK2 → IllegalArgumentException
+EK3 → IllegalArgumentException
+```
+
+#### 6️⃣ Testfälle formulieren (optional Code)
+
+📌 Schablone (JUnit):
+
+
+Gültiger Test
+```java
+@Test
+public void test<Beschreibung>() {
+objekt.methode(wert);
+assertEquals(...);
+}
+```
+
+Ungültiger Test
+```java
+@Test(expected = IllegalArgumentException.class)
+public void test<Beschreibung>() {
+objekt.methode(wert);
+}
+```
+
+
+#### 7️⃣ Prüfungs-Merksätze 🧠
+
+💡 Kurz & effektiv merken:
+
+🔹 Eine Äquivalenzklasse = ein Bereich mit gleichem Verhalten<br>
+🔹 Pro Klasse reicht ein repräsentativer Test<br>
+🔹 Grenzen sind besonders wichtig<br>
+🔹 Ungültige Klassen → Exception-Tests<br>
+
+Mini-Spickzettel für Prüfungen
+```java
+1. Parameter bestimmen
+2. Regeln lesen (muss / darf / min / max)
+3. Bereiche bilden
+4. Gültig vs. ungültig trennen
+5. Grenzwerte testen
+6. Exception nicht vergessen
+```
